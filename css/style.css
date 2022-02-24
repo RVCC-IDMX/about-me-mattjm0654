@@ -1,15 +1,49 @@
-body{
-    background-color:#99222E;
+body  {
+    background-color:lightblue;
     font-family: 'Playfair Display', serif;
-}
-    h1, h2, h3, h4, h5, h6 { 
-
+    text-align: center;
 
 
 }
 
-
-header { 
-    background-color: #E64959;
-   
+h1, h2, h3, h4, h5 {
+    text-align: center;
 }
+
+
+
+
+    
+ header { 
+    background-color: darkblue;
+    text-align: center;
+} 
+
+
+
+
+#hero section {
+font-size: 1 rem;
+border: orange;
+
+  }
+
+
+  
+
+main { 
+   font-size: 20px;
+   text-align: center;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
