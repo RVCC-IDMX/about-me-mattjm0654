@@ -1,22 +1,28 @@
 body  {
     background-color:lightblue;
     font-family: 'Playfair Display', serif;
-    text-align: center;
+text-align: center;
 
-
-}
+#biosection 
 
 h1, h2, h3, h4, h5 {
     text-align: center;
 }
 
+p {
+    text-align: center;
+}
 
-
+ul { 
+    text-align: center;
+    margin: auto;
+    font-size:;
+}
 
     
  header { 
     background-color: darkblue;
-    text-align: center;
+   text-align: center;
 } 
 
 
@@ -32,8 +38,8 @@ border: orange;
   
 
 main { 
-   font-size: 20px;
-   text-align: center;
+   
+  
     
 }
 
