@@ -1,51 +1,89 @@
-body  {
-    background-color:lightblue;
-    font-family: 'Roboto', sans-serif;
-text-align: center;
-
-
-}
-h1, h2, h3, h4, h5 {
-    text-align: center;
-}
-
-p {
-    text-align: center;
-}
-
-ul { 
-    text-align: center;
-    margin: auto;
-  
-}
-
+body{
+    background-color: #467e99;
     
- header { 
-   background-color: darkblue;
-   text-align: center;
-   font-family: 'Roboto Slab', serif;
-} 
+}
+    header{
+    text-align: center;
+    font-size: 50px;
+    color: #e6df29;
+    background-color: #99222e;
+    border: 3px solid #32aae6;
+    text-shadow: 3px 3px  black;
+    padding-top: 40px;
+    
+}
 
 
+h1, h2, h3, h5, h6{
+    font-family: 'League Gothic', sans-serif;
+    text-align: center;
 
+}
 
-#hero section {
-font-size: 1 rem;
-border: orange;
+#hero{
+    background-color: #99222e;
+    color: #e6df29 ;
+    font-size:50px;
+    text-align: center;
+    text-shadow: 2px 2px  black;
+    padding-top: 50px;
+    border: 3px solid #32aae6;
+    margin-right: 20px;
+    margin-left: 20px;
+    }
+#hero img{
+        width: 300px;
+      /*  border: black 10px solid; */
+        
 
-  }
+}
 
+#bio{
+    text-align: center;
+    color:  #e6df29 ;
+    background-color: #99222e;
+    margin-left: 10rem;
+    margin-right: 10rem;
+    border: 2px solid #e64959;
+}
 
+ol{font-family: 'Smooch Sans', sans-serif;
+    list-style-position:inside ;
+    text-align: left;
+
+}
+
+p{
+    font-family: 'Smooch Sans', sans-serif;
   
+ 
+}
 
 
 
+#hobbies{
 
-
-
-
-
-
+    color: #e6df29 ;
+    text-align: left;
+    background-color: #99222e;
+    margin-left: 10em;
+    margin-right: 10rem;
+    border: 2px solid #e64959;
+}
+ul{font-family: 'Smooch Sans', sans-serif;
+    list-style-position:inside ;
+    text-align: left;
+}
+footer{
+    text-align: center;
+    font-family: 'Smooch Sans', sans-serif;
+    font-size: small;
+    border: 3px solid #32aae6;
+    background-color: #99222e;
+    margin-right:5 ;
+    margin-left:5 ;
+    color: #e6df29 ;
+}
 
 
 
