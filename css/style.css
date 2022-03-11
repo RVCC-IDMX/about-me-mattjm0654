@@ -10,15 +10,40 @@ body{
     border: 3px solid #32aae6;
     text-shadow: 3px 3px  black;
     padding-top: 40px;
-    
+
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
 }
+    
 
-
-h1, h2, h3, h5, h6{
+h1, h2 {
     font-family: 'League Gothic', sans-serif;
     text-align: center;
 
+    text-shadow: 2px 2px  black;
 }
+
+h3, h5, h6{
+    font-family: 'League Gothic', sans-serif;
+    text-align: left;
+    font-size: x-large;
+    font-style: italic;
+
+    text-shadow: 2px 2px  black;
+}
+
+
+
+p{
+    font-family: 'Smooch Sans', sans-serif;
+  
+}
+
+
+
+/*hero section*/
 
 #hero{
     background-color: #99222e;
@@ -28,24 +53,50 @@ h1, h2, h3, h5, h6{
     text-shadow: 2px 2px  black;
     padding-top: 50px;
     border: 3px solid #32aae6;
-    margin-right: 20px;
-    margin-left: 20px;
-    }
+    margin-right: 200px;
+    margin-left: 200px;
+    padding-left: 40px;
+    padding-right: 40px;
+
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+}
+
+    
+
 #hero img{
         width: 300px;
-      /*  border: black 10px solid; */
-        
 
 }
+
+
+
+
+
+
+
+/*bio section*/
+
 
 #bio{
     text-align: center;
     color:  #e6df29 ;
     background-color: #99222e;
     margin-left: 10rem;
-    margin-right: 10rem;
+    margin-right: 60rem;
+    padding-left: 50px;
     border: 2px solid #e64959;
+
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+
 }
+
+
 
 ol{font-family: 'Smooch Sans', sans-serif;
     list-style-position:inside ;
@@ -53,13 +104,12 @@ ol{font-family: 'Smooch Sans', sans-serif;
 
 }
 
-p{
-    font-family: 'Smooch Sans', sans-serif;
-  
- 
-}
 
 
+
+
+
+/*hobby section*/
 
 #hobbies{
 
@@ -67,22 +117,104 @@ p{
     text-align: left;
     background-color: #99222e;
     margin-left: 10em;
-    margin-right: 10rem;
+    margin-right: 60rem;
     border: 2px solid #e64959;
+    padding-left:50px ;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
 }
+
+
 ul{font-family: 'Smooch Sans', sans-serif;
     list-style-position:inside ;
     text-align: left;
+  
 }
+
+
+
+
+
+
+/*gallery section*/
+
+#photoGallery{
+    border: solid #32aae6 2px;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    background-color: #99222e;
+    font-family:'Smooch Sans', sans-serif; 
+    font-variant: small-caps;
+    font-size: large;
+    color:#e6df29;
+    padding-left: 20px;
+    padding-right:20px;
+    margin-left: 300px;
+    margin-right:300px;
+
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+}
+
+
+#photoGallery img{
+max-width: 100%;
+margin-top:50px;
+margin-bottom: 20px;
+
+}
+/*
+#photoGallery figcaption{
+    background-color: black;
+} */
+
+#photoGallery figure{
+text-align: center;
+
+}
+
+
+/*literature*/
+
+#lit {
+
+    font-family:'Smooch Sans', sans-serif; 
+    color: #e6df29;
+   
+    background-color: #99222e;
+    border: 2px solid #e64959;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    
+}
+
+
+
+
+/*footer*/
+
 footer{
     text-align: center;
     font-family: 'Smooch Sans', sans-serif;
     font-size: small;
-    border: 3px solid #32aae6;
     background-color: #99222e;
     margin-right:5 ;
     margin-left:5 ;
     color: #e6df29 ;
+    border: 3px solid #32aae6;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+
 }
 
 
