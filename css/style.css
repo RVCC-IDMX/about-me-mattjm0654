@@ -94,6 +94,9 @@ p{
     border-bottom-left-radius: 1rem;
     border-bottom-right-radius: 1rem;
 
+   /* display: flex; 
+    flex-direction: column; 
+    align-items: center; */
 }
 
 
@@ -124,6 +127,10 @@ ol{font-family: 'Smooch Sans', sans-serif;
     border-top-right-radius: 1rem;
     border-bottom-left-radius: 1rem;
     border-bottom-right-radius: 1rem;
+   /* display: flex; 
+    flex-direction: column; 
+    align-items: center; */
+    
 }
 
 
