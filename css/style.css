@@ -30,7 +30,7 @@ h3, h5, h6{
     text-align: left;
     font-size: x-large;
     font-style: italic;
-
+    padding-left: 20px;
     text-shadow: 2px 2px  black;
 }
 
@@ -40,8 +40,6 @@ p{
     font-family: 'Smooch Sans', sans-serif;
   
 }
-
-
 
 /*hero section*/
 
@@ -71,32 +69,25 @@ p{
 
 }
 
-
-
-
-
-
-
 /*bio section*/
 
 
 #bio{
+    color: #e6df29 ;
     text-align: center;
-    color:  #e6df29 ;
     background-color: #99222e;
-    margin-left: 10rem;
-    margin-right: 60rem;
-    padding-left: 50px;
+    margin-left: 15em;
+    margin-right: 30rem;
     border: 2px solid #e64959;
+    padding-left:0px ;
+
 
     border-top-left-radius: 1rem;
     border-top-right-radius: 1rem;
     border-bottom-left-radius: 1rem;
     border-bottom-right-radius: 1rem;
 
-   /* display: flex; 
-    flex-direction: column; 
-    align-items: center; */
+
 }
 
 
@@ -104,6 +95,7 @@ p{
 ol{font-family: 'Smooch Sans', sans-serif;
     list-style-position:inside ;
     text-align: left;
+   
 
 }
 
@@ -117,25 +109,26 @@ ol{font-family: 'Smooch Sans', sans-serif;
 #hobbies{
 
     color: #e6df29 ;
-    text-align: left;
+    text-align: center;
     background-color: #99222e;
-    margin-left: 10em;
-    margin-right: 60rem;
+    margin-left: 15em;
+    margin-right: 30rem;
     border: 2px solid #e64959;
-    padding-left:50px ;
+    padding-left:0px ;
+
+
     border-top-left-radius: 1rem;
     border-top-right-radius: 1rem;
     border-bottom-left-radius: 1rem;
     border-bottom-right-radius: 1rem;
-   /* display: flex; 
-    flex-direction: column; 
-    align-items: center; */
+  
+    
     
 }
 
 
 ul{font-family: 'Smooch Sans', sans-serif;
-    list-style-position:inside ;
+    list-style-position: inside ;
     text-align: left;
   
 }
@@ -174,10 +167,7 @@ margin-top:50px;
 margin-bottom: 20px;
 
 }
-/*
-#photoGallery figcaption{
-    background-color: black;
-} */
+
 
 #photoGallery figure{
 text-align: center;
@@ -225,4 +215,92 @@ footer{
 }
 
 
+@media screen and (max-width:1500px) {
+   /* 
+    #hobbies{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+*/
 
+
+    }
+
+}
+
+
+/*adding tablet media querry*/
+
+@media screen and (min-width: 60em) {
+    
+
+
+    #photoGallery {
+
+        
+        display: grid;
+        grid-template-columns: 2f 1fr ;
+        grid-template-areas: 
+
+            "fig1       fig1cap1"
+            "fig2       figcap2"
+            "fig3       figcap3"
+            ;
+
+        max-width: 1200px;
+}
+
+    figcaption{
+
+
+        display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    margin-left: 1rem;
+    }
+}
+
+   
+
+    #fig1{
+
+        grid-area: photo1;
+        max-width: 200px ;
+    }
+
+    #fig1cap{
+
+        grid-area: caption1;
+
+    }
+
+    #fig2{
+        grid-area: photo2;
+        max-width: 200px ;
+    }
+
+    #fig2cap{
+
+        grid-area: caption2;
+    }
+
+    #fig3{
+        grid-area:photo3;
+        max-width: 200px ;
+    }
+    #fig3cap{
+        grid-area: caption3;
+    }
+}
+
+@media screen and (min-width: 1200px ) {
+
+    main{
+
+        margin: auto;
+        max-width: 1200px;
+    }
+
+
+}
