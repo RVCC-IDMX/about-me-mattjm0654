@@ -155,23 +155,83 @@
          </article>
 
 
+<!-- contact form-->
 
          <section id="contact"> 
 
-         <h2>Contact Form</h2>
-         <form id="ContactForm" name="contactForm">
+         <h2>Contact Us:</h2>
+         <form id="contactForm" name="contactForm">
 
 
     <fieldset>
 
-        <legend>Contact Form</legend>
+        <legend>Contact Form</legend> 
+
+            <div id="formElements"> 
+                <!-- name section-->      
+                <label for="name"> Name (required)</label>
+                <input type="text" id="name" name="name" required>
+
+
+                <!--email section-->
+
+                <label for="email"> Email (required) </label>
+                <input type="email" id="email" name="email" required>
+            
+            
+                <!--phone section-->
+
+                <label for="phone"> Phone (optional) </label>
+                <input type="tel" id="phone" name="phone">
+                
+                <!--phone type-->
+
+                <label for="phonetype"> Phone type (optional) </label>
+                <select id="phonetype" name="phonetype"> 
+                        <option>Select Phone Type</option>
+                        <option>Home</option>
+                        <option>Mobile</option>
+                        <option>Work</option>
+                </select>
+
+                <!--Message-->
+
+                <label for="message"> Message (optional) </label>
+
+                <textarea id="message" name="message" rows="8"> Additional Comments.</textarea>
+
+                <!--reply -->
+
+            <fieldset>
+                <legend>Would you like a reply?</legend>
+
+                        <ul>
+                            <li> 
+                                <input type="radio" id="message-yes" name="reply">
+                                  <label for="message-yes">  Yes, a reply would be great!
+                            </li>
+                                </label>
+                            <li>
+                                <input type="radio" id="message-no" name="reply">
+                                  <label for="message-no"> No, thank you! 
+                            </li>
+                                  </label>
+
+                        </ul>
+            </fieldset>
+       </div>    
+
+
     </fieldset>
-         </form>   
+                
+
+
+    </form>   
 
 
 
 
-         </section>
+    </section>
 
 
 

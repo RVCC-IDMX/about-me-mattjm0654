@@ -62,8 +62,6 @@ p{
     border-bottom-right-radius: 1rem;
 }
 
-    
-
 #hero img{
         width: 300px;
 
@@ -76,17 +74,16 @@ p{
     color: #e6df29 ;
     text-align: center;
     background-color: #99222e;
-    margin-left: 15em;
-    margin-right: 30rem;
     border: 2px solid #e64959;
-    padding-left:0px ;
-
+    margin-left: 100px;
+    margin-right: 100px;
+    
+    padding-bottom: 50px;
 
     border-top-left-radius: 1rem;
     border-top-right-radius: 1rem;
     border-bottom-left-radius: 1rem;
     border-bottom-right-radius: 1rem;
-
 
 }
 
@@ -96,12 +93,7 @@ ol{font-family: 'Smooch Sans', sans-serif;
     list-style-position:inside ;
     text-align: left;
    
-
 }
-
-
-
-
 
 
 /*hobby section*/
@@ -111,10 +103,11 @@ ol{font-family: 'Smooch Sans', sans-serif;
     color: #e6df29 ;
     text-align: center;
     background-color: #99222e;
-    margin-left: 15em;
-    margin-right: 30rem;
     border: 2px solid #e64959;
-    padding-left:0px ;
+    margin-left: 100px;
+    margin-right: 100px;
+    
+   
 
 
     border-top-left-radius: 1rem;
@@ -175,7 +168,7 @@ text-align: center;
 }
 
 
-/*literature*/
+/*lit*/
 
 #lit {
 
@@ -215,18 +208,27 @@ footer{
 }
 
 
+/*contact form*/
+
+#formElements   {
+
+    display:grid;
+}
+
+
+/*
+
 @media screen and (max-width:1500px) {
-   /* 
+   
     #hobbies{
-            display: flex;
+            display: grid;
             flex-direction: column;
             align-items: center;
-*/
-
+            max-width: 100%;
 
     }
 
-}
+*/
 
 
 /*adding tablet media querry*/
@@ -235,65 +237,90 @@ footer{
     
 
 
-    #photoGallery {
+    #photoGallery img {
 
         
         display: grid;
-        grid-template-columns: 2f 1fr ;
+        grid-template-columns: 2f 1fr auto ;
         grid-template-areas: 
 
-            "fig1       fig1cap1"
-            "fig2       figcap2"
-            "fig3       figcap3"
+            "header         header"
+            "hero           hero"
+            "hobbies        bio"
+            "fig1           figcap1"
+            "fig2           figcap2"
+            "fig3           figcap3"
+            "lit            lit"
+            "contactform   contactform"
+            "footer         footer"
             ;
 
-        max-width: 1200px;
 }
 
-    figcaption{
+    #header {
+        grid-area: header;
 
-
-        display:flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 2rem;
-    margin-left: 1rem;
     }
-}
+    #hero {
+        grid-area: hero;
+    }
+    #hobbies {
+        grid-area: hobbies;
 
-   
+    }
+
+    #bio {
+
+        grid-area:bio;
+    }
 
     #fig1{
 
-        grid-area: photo1;
-        max-width: 200px ;
+        grid-area: fig1;
+       
     }
 
     #fig1cap{
 
-        grid-area: caption1;
+        grid-area: figcap1;
 
     }
 
     #fig2{
-        grid-area: photo2;
-        max-width: 200px ;
+        grid-area: fig2;
+       
     }
 
     #fig2cap{
 
-        grid-area: caption2;
+        grid-area: figcap2;
     }
 
     #fig3{
-        grid-area:photo3;
-        max-width: 200px ;
+        grid-area:fig3;
+       
     }
     #fig3cap{
-        grid-area: caption3;
+        grid-area: figcap3;
     }
-}
 
+     #lit {
+         grid-area: lit;
+
+     }   
+
+     #contact {
+
+        grid-area: contactform;
+     }
+
+     #footer {
+         grid-area: footer;
+     }
+
+
+
+     
 @media screen and (min-width: 1200px ) {
 
     main{
@@ -301,6 +328,10 @@ footer{
         margin: auto;
         max-width: 1200px;
     }
+
+
+}
+
 
 
 }
