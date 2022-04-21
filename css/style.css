@@ -231,6 +231,12 @@ fieldset {
 
 }
 
+#contact #phonetype, #contact ::placeholder{
+
+    color: #99222e;
+}
+
+
 legend{
 
     background-color: #32aae6;
