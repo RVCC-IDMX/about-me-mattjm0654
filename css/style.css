@@ -28,17 +28,28 @@ h1, h2 {
 
 h3, h5, h6{
     font-family: 'League Gothic', sans-serif;
-    text-align: left;
+    text-align: center;
     font-size: x-large;
-    font-style: italic;
+    font-variant: small-caps;
     padding-left: 20px;
     text-shadow: 2px 2px  black;
+    color: #e6df29;
+}
+
+h4 {
+    font-family: 'League Gothic', sans-serif;
+    text-align: center;
+    color: #e6df29;
+    font-style: oblique;
+    font-size: xx-small;
+
 }
 
 
 
 p{
     font-family: 'Smooch Sans', sans-serif;
+    color: whitesmoke;
   
 }
 
@@ -93,6 +104,7 @@ p{
 ol{font-family: 'Smooch Sans', sans-serif;
     list-style-position:inside ;
     text-align: left;
+    color: whitesmoke;
    
 }
 
@@ -124,7 +136,16 @@ ol{font-family: 'Smooch Sans', sans-serif;
 ul{font-family: 'Smooch Sans', sans-serif;
     list-style-position: inside ;
     text-align: left;
+    color: whitesmoke;
   
+}
+
+#hobbies p {
+
+    text-align:left ;
+    padding-left: 3rem;
+    color: #32aae6;
+
 }
 
 
@@ -195,6 +216,9 @@ text-align: center;
 
     display:grid;
     row-gap: 0.5em;
+    background-color: #99222e;
+    padding: 1rem;
+    margin: 2rem auto;
     
 }
 #contact {
@@ -239,31 +263,40 @@ fieldset {
 
 legend{
 
-    background-color: #32aae6;
+   /* background-color: #32aae6; */
+    color:#e6df29;
     
   
 }
 
+#contact ul {
+
+    list-style: none;
+    
+}
 
 
 
 
 /*footer*/
 
-footer{
+footer, h4{
     text-align: center;
     font-family: 'Smooch Sans', sans-serif;
     font-size: small;
     background-color: #99222e;
     margin-right:5 ;
     margin-left:5 ;
-    color: #e6df29 ;
-    border: 3px solid #32aae6;
+    color: whitesmoke ;
+   
     border-top-left-radius: 1rem;
     border-top-right-radius: 1rem;
     border-bottom-left-radius: 1rem;
     border-bottom-right-radius: 1rem;
 
+}
+footer{
+    border: 3px solid #32aae6;
 }
 
 
