@@ -302,13 +302,17 @@ footer{
 
 @media screen and (min-width: 60em) {
     
-
+    #photoGallery {
+        display: block;
+    }
 
     #photoGallery img {
 
         
         display: grid;
-        grid-template-columns: 2f 1fr auto ;
+        grid-template-columns: ;
+        flex-direction: column;
+       /* grid-template-columns: 2f 1fr auto ;
         grid-template-areas: 
 
             "header         header"
@@ -384,6 +388,9 @@ footer{
      #footer {
          grid-area: footer;
      }
+
+*/
+
 
 
 
