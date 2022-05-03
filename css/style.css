@@ -1,3 +1,7 @@
+
+
+
+
 body{
     background-color: #467e99;
     
@@ -88,11 +92,13 @@ p{
 
 #bio{
     color: #e6df29 ;
-    text-align: center;
+    text-align: left;
     background-color: #99222e;
     border: 2px solid #e64959;
     margin-left: 50px;
     margin-right: 50px;
+    padding-right: 1rem;
+    padding-left: 1rem;
     padding-bottom: 50px;
     border-top-left-radius: 1rem;
     border-top-right-radius: 1rem;
@@ -124,12 +130,13 @@ p{
 #hobbies{
 
     color: #e6df29 ;
-    text-align: center;
+    text-align: left;
     background-color: #99222e;
     border: 2px solid #e64959;
     margin-left: 50px;
     margin-right: 50px;
-    
+    padding-left: 1rem;
+    padding-right: 1em;
    
 
 
@@ -154,17 +161,16 @@ ul{font-family: 'Smooch Sans', sans-serif;
 #hobbies p {
 
     text-align:left ;
-    padding-left: 3rem;
-    color: #32aae6;
+    
 
 }
 
 
-#hobbies-links a:hover {
+#hobbie a:hover {
+
+    color: yellow;
     
-    filter: invert(1);
-    border-radius: 10px;
-    outline:oldlace;
+    
     
     }
 
@@ -287,12 +293,17 @@ legend{
     
   
 }
-
+/*
 #contact ul {
 
     
 
-}
+}*/
+
+
+
+
+
 
 /*footer*/
 
@@ -315,6 +326,27 @@ footer{
     border: 3px solid #32aae6;
 }
 
+
+
+
+
+/*hamicon*/ 
+@media (min-width:60em){
+    #navbar-links{
+        display: none;
+    }
+}
+
+
+@media(min-width:61em){
+    #hamIcon{
+        display: none;
+    }
+
+
+}
+
+
 /*iphone media responsiveness*/ 
 
 
@@ -328,6 +360,7 @@ footer{
     }
     #photoGallery {
         display: grid;
+        max-width: 50em;
     }
 
     #photoGallery figure {
@@ -335,7 +368,7 @@ footer{
         display: inline-table;
     }
 
-    }
+    
     
     #photoGallery {
         display: block;
