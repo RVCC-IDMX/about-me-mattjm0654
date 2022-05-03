@@ -94,20 +94,26 @@ p{
     margin-left: 50px;
     margin-right: 50px;
     padding-bottom: 50px;
-
     border-top-left-radius: 1rem;
     border-top-right-radius: 1rem;
     border-bottom-left-radius: 1rem;
     border-bottom-right-radius: 1rem;
-
+    
 }
 
+#bio ol a:hover {
 
-
-ol{
-    font-family: 'Smooch Sans', sans-serif;
-    list-style-position:inside ;
+    filter: invert(1);
+    border-radius: 10px;
+    outline: none;
     text-align: left;
+    }
+
+
+#bio ol {
+    font-family: 'Smooch Sans', sans-serif;
+    list-style-type: none;
+    
     color: whitesmoke;
    
 }
@@ -141,7 +147,8 @@ ul{font-family: 'Smooch Sans', sans-serif;
     list-style-position: inside ;
     text-align: left;
     color: whitesmoke;
-  
+    list-style: none;
+    
 }
 
 #hobbies p {
@@ -153,7 +160,13 @@ ul{font-family: 'Smooch Sans', sans-serif;
 }
 
 
-
+#hobbies-links a:hover {
+    
+    filter: invert(1);
+    border-radius: 10px;
+    outline:oldlace;
+    
+    }
 
 
 
@@ -277,7 +290,7 @@ legend{
 
 #contact ul {
 
-    list-style: none;
+    
 
 }
 
