@@ -39,8 +39,8 @@ main {
 /* logo */
 
 .logo{
-    display: flex;
-    align-items: top;
+    display: block;
+    align-items: inline;
     padding-left: 1rem;
 
 }
@@ -114,5 +114,18 @@ such that no text wraps
     }
 
 }
+
+   /* .navbar-links{
+        p
+*/
+
+
+
+    .hamIcon{
+        position:absolute; 
+    
+    }
+
+
 
  
