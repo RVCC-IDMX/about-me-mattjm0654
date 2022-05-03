@@ -97,9 +97,9 @@ p{
     border: 2px solid #e64959;
     margin-left: 50px;
     margin-right: 50px;
-    padding-right: 1rem;
-    padding-left: 1rem;
-    padding-bottom: 50px;
+    padding-right: 2em;
+    padding-left: 1em;
+    padding-bottom: 25px;
     border-top-left-radius: 1rem;
     border-top-right-radius: 1rem;
     border-bottom-left-radius: 1rem;
@@ -135,8 +135,8 @@ p{
     border: 2px solid #e64959;
     margin-left: 50px;
     margin-right: 50px;
-    padding-left: 1rem;
-    padding-right: 1em;
+    padding-left: 1em;
+    padding-right: 2em;
    
 
 
