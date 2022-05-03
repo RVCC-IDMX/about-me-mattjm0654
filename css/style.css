@@ -89,7 +89,6 @@ p{
     border: 2px solid #e64959;
     margin-left: 100px;
     margin-right: 100px;
-    
     padding-bottom: 50px;
 
     border-top-left-radius: 1rem;
@@ -101,7 +100,8 @@ p{
 
 
 
-ol{font-family: 'Smooch Sans', sans-serif;
+ol{
+    font-family: 'Smooch Sans', sans-serif;
     list-style-position:inside ;
     text-align: left;
     color: whitesmoke;
@@ -312,85 +312,12 @@ footer{
         display: grid;
         grid-template-columns: ;
         flex-direction: column;
-       /* grid-template-columns: 2f 1fr auto ;
-        grid-template-areas: 
-
-            "header         header"
-            "hero           hero"
-            "hobbies        bio"
-            "fig1           figcap1"
-            "fig2           figcap2"
-            "fig3           figcap3"
-            "lit            lit"
-            "contactform   contactform"
-            "footer         footer"
-            ;
-
-}
-
-    #header {
-        grid-area: header;
-
-    }
-    #hero {
-        grid-area: hero;
-    }
-    #hobbies {
-        grid-area: hobbies;
-
     }
 
-    #bio {
+     figcaption {
 
-        grid-area:bio;
+        display: inline-block;
     }
-
-    #fig1{
-
-        grid-area: fig1;
-       
-    }
-
-    #fig1cap{
-
-        grid-area: figcap1;
-
-    }
-
-    #fig2{
-        grid-area: fig2;
-       
-    }
-
-    #fig2cap{
-
-        grid-area: figcap2;
-    }
-
-    #fig3{
-        grid-area:fig3;
-       
-    }
-    #fig3cap{
-        grid-area: figcap3;
-    }
-
-     #lit {
-         grid-area: lit;
-
-     }   
-
-     #contact {
-
-        grid-area: contactform;
-     }
-
-     #footer {
-         grid-area: footer;
-     }
-
-*/
-
 
 
 
