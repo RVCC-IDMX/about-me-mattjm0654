@@ -1,3 +1,7 @@
+
+
+
+
 body{
     background-color: #467e99;
     
@@ -22,13 +26,21 @@ body{
     font-size: xx-large;
 }
 
-h1, h2 {
+h1 {
     font-family: 'League Gothic', sans-serif;
+    font-size:xx-large;
     text-align: center;
     font-size: 2rem;
     color: #e6df29;
     text-shadow: 2px 2px  black;
 }
+
+h2 { 
+    font-family: 'League Gothic', sans-serif;
+    font-size:x-large;
+    font-weight: 500;
+    text-align:center;
+ }
 
 h3, h5, h6{
     font-family: 'League Gothic', sans-serif;
@@ -88,29 +100,52 @@ p{
 
 #bio{
     color: #e6df29 ;
-    text-align: center;
+    text-align: left;
     background-color: #99222e;
     border: 2px solid #e64959;
     margin-left: 50px;
     margin-right: 50px;
-    padding-bottom: 50px;
-
+    padding-right: 2em;
+    padding-left: 2rem;
+    padding-bottom: 25px;
     border-top-left-radius: 1rem;
     border-top-right-radius: 1rem;
     border-bottom-left-radius: 1rem;
     border-bottom-right-radius: 1rem;
-
+    
+    list-style: none ;
 }
+/*
+#bio ol a:hover {
 
-
-
-ol{
-    font-family: 'Smooch Sans', sans-serif;
-    list-style-position:inside ;
+    filter: invert(1);
+    border-radius: 10px;
+    outline: none;
     text-align: left;
+    } */
+
+
+#bio ol {
+    font-family: 'Smooch Sans', sans-serif;
+    list-style: none ;
+    
     color: whitesmoke;
    
 }
+
+#bio img {
+    display: grid;
+    flex-direction:row;
+    max-width: 80%;
+    float: right;
+    padding-left: 1em;
+    padding-bottom: 1rem;
+    
+}
+
+#bio li{
+   list-style: none ;
+} 
 
 
 /*hobby section*/
@@ -118,12 +153,14 @@ ol{
 #hobbies{
 
     color: #e6df29 ;
-    text-align: center;
+    text-align: left;
     background-color: #99222e;
     border: 2px solid #e64959;
     margin-left: 50px;
     margin-right: 50px;
-    
+    padding-left: 1em;
+    padding-right: 2em;
+    padding-bottom: 2rem;
    
 
 
@@ -141,19 +178,25 @@ ul{font-family: 'Smooch Sans', sans-serif;
     list-style-position: inside ;
     text-align: left;
     color: whitesmoke;
-  
+    list-style: none;
+    
 }
 
 #hobbies p {
 
     text-align:left ;
-    padding-left: 3rem;
-    color: #32aae6;
+    
 
 }
 
 
+#hobbie a:hover {
 
+    color: yellow;
+    
+    
+    
+    }
 
 
 
@@ -185,15 +228,20 @@ max-width: 100%;
 margin-top:50px;
 margin-bottom: 20px;
 
-}
+} 
 
 
 #photoGallery figure{
-text-align: center;
-
+display: grid;
+grid-template-columns: 2fr 1fr;
 }
+
+
 #figcap {
-    float: right;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-size: 2rem;
 }
 
 /*lit*/
@@ -207,10 +255,14 @@ text-align: center;
     border: 2px solid #e64959;
     padding-left: 20px;
     padding-right: 20px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
     border-top-left-radius: 1rem;
     border-top-right-radius: 1rem;
     border-bottom-left-radius: 1rem;
     border-bottom-right-radius: 1rem;
+
+    columns: 20rem;
     
 }
 
@@ -274,12 +326,17 @@ legend{
     
   
 }
-
+/*
 #contact ul {
 
-    list-style: none;
+    
 
-}
+}*/
+
+
+
+
+
 
 /*footer*/
 
@@ -302,8 +359,21 @@ footer{
     border: 3px solid #32aae6;
 }
 
+
+
+
+
+
+
+
 /*iphone media responsiveness*/ 
 
+@media screen and (min-width >60em){
+
+    #selfie {
+        max-width: fit-content;
+    }
+}
 
 @media screen and (min-width <60em) {
 
@@ -315,6 +385,7 @@ footer{
     }
     #photoGallery {
         display: grid;
+        max-width: 50em;
     }
 
     #photoGallery figure {
@@ -322,7 +393,7 @@ footer{
         display: inline-table;
     }
 
-    }
+    
     
     #photoGallery {
         display: block;
@@ -335,7 +406,9 @@ footer{
         grid-template-columns:2fr 1fr auto ;
        
     }
+
 }
+
 
 /*adding tablet media querry*/
 
